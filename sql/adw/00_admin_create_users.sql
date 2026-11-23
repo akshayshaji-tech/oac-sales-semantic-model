@@ -1,0 +1,6 @@
+CREATE USER sales_dw IDENTIFIED BY "password";
+GRANT DWROLE TO sales_dw;
+ALTER USER sales_dw QUOTA UNLIMITED ON data;
+
+CREATE USER oac_ro IDENTIFIED BY "password";
+GRANT CREATE SESSION TO oac_ro;
