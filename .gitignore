@@ -1,0 +1,31 @@
+# Credentials and Oracle wallets
+*.wallet
+*.zip
+*.pem
+*.key
+*.p12
+*.pfx
+cwallet.sso
+ewallet.p12
+tnsnames.ora
+sqlnet.ora
+*.env
+.env
+
+# Local database and IDE files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local exports and backups
+*.bak
+*.old
